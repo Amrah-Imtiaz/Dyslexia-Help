@@ -8,6 +8,8 @@ It lets you adjust text spacing, switch to dyslexia-friendly fonts, play calming
 
 ## 📸 Screenshot
 
+<img width="2097" height="1163" alt="Screenshot 2025-09-06 223747" src="https://github.com/user-attachments/assets/01933657-5206-41ec-be46-0ad87d14369a" />
+
 
 ---
 
