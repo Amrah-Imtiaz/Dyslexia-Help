@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Dyslexia Helper",
+  "version": "1.0",
+  "description": "Helps reading by changing font/spacing and reading aloud.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+  {
+    "resources": ["sounds/*.mp3"],
+    "matches": ["<all_urls>"]
+  }
+]
+}

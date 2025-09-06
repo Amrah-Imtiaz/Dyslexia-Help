@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dyslexia Helper</title>
+<style>
+
+body {
+  padding: 12px;
+  max-width: 500px;
+  background-color: #444;       
+  color: #ffffff;
+  
+  font-family: "OpenDyslexic", "Arial", "Verdana", sans-serif;
+  
+  
+  font-size: 1.05rem;
+  line-height: 1.5;              
+  letter-spacing: 0.04em;        /
+}
+
+label,
+select,
+input {
+  display: block;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button {
+  margin: 6px 0;
+  padding: 8px 10px;
+  background-color: #0066cc;   
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0052a3;     
+}
+
+
+input:focus, select:focus, button:focus {
+  outline: 2px solid #ffcc00;   
+  outline-offset: 2px;
+}
+
+</style>
+</head>
+<body>
+  <h3>Dyslexia Helper</h3>
+
+  <label>Font:
+    <select id="fontSelect">
+      <option value="'Open Sans', sans-serif">Open Sans</option>
+      <option value="'Coming Soon', cursive">Coming Soon</option>
+      <option value="'Source Code Pro', sans-serif">Source Code Pro</option>
+    </select>
+  </label>
+
+  <label>Letter spacing (em):
+    <input type="number" id="letterSpacing" value="0.05" step="0.01">
+  </label>
+
+  <label>Line height:
+    <input type="number" id="lineHeight" value="1.4" step="0.1">
+  </label>
+
+  <button id="applyStyle">Apply Style</button>
+  <button id="resetStyle">Reset Style</button>
+
+
+<hr>
+<h4>Background Noise</h4>
+<button id="brownNoise">Brown Noise</button>
+<button id="whiteNoise">White Noise</button>
+<button id="rainNoise">Rain</button>
+<button id="stopNoise">Stop Noise</button>
+
+
+  <hr>
+  <h4>Read Aloud</h4>
+  <label>Voice:
+    <select id="voiceSelect"></select>
+  </label>
+  <label>Speed:
+    <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1">
+  </label>
+  <button id="speak">Speak</button>
+  <button id="pause">Pause</button>
+  <button id="resume">Resume</button>
+  <button id="stop">Stop</button>
+
+  
+
+<script src="popup.js"></script>
+</body>
+</html>
