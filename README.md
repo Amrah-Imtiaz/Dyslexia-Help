@@ -1,6 +1,6 @@
 # Dyslexia Helper – Browser Extension
 
-Built for CodeRush 2025
+### Built for CodeRush 2025
 
 A lightweight, privacy-friendly browser extension that makes reading the web easier for people with dyslexia (and anyone who loves cleaner pages).  
 It lets you adjust text spacing, switch to dyslexia-friendly fonts, play calming focus sounds, and convert any selected text to natural-sounding speech.
